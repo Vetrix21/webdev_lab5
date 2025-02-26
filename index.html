@@ -19,7 +19,7 @@
         </div>
         <div>
           <label for="phone_number">Phone Number: </label>
-          <input size="100" id="phone_number" name ="phone_number_field" required>
+          <input size="100" id="phone_number" name ="phone_field" required>
         </div>
         <div>
           <label for="email">Email: </label>
@@ -49,37 +49,37 @@
         <legend>My Availability</legend>
         <h3>Days Available:</h3>
         <div>
-          <input type="checkbox" id="sundayCheck" name="Sundays" value="Sundays">
+          <input type="checkbox" id="sundayCheck" name="available_field[]" value="Sundays">
           <label for="sundayCheck">Sundays</label>
         </div>
         <div>
-          <input type="checkbox" id="mondayCheck" name="Mondays" value="Mondays">
+          <input type="checkbox" id="mondayCheck" name="available_field[]" value="Mondays">
           <label for="mondayCheck">Mondays</label>
         </div>
         <div>
-          <input type="checkbox" id="tuesdayCheck" name="Tuesdays" value="Tuesdays">
+          <input type="checkbox" id="tuesdayCheck" name="available_field[]" value="Tuesdays">
           <label for="tuesdayCheck">Tuesdays</label>
         </div>
         <div>
-          <input type="checkbox" id="wednesdayCheck" name="Wednesdays" value="Wednesdays">
+          <input type="checkbox" id="wednesdayCheck" name="available_field[]" value="Wednesdays">
           <label for="wednesdayCheck">Wednesdays</label>
         </div>
         <div>
-          <input type="checkbox" id="thursdayCheck" name="Thursdays" value="Thursdays">
+          <input type="checkbox" id="thursdayCheck" name="available_field[]" value="Thursdays">
           <label for="thursdayCheck">Thursdays</label>
         </div>
         <div>
-          <input type="checkbox" id="fridayCheck" name="Fridays" value="Fridays">
+          <input type="checkbox" id="fridayCheck" name="available_field[]" value="Fridays">
           <label for="fridayCheck">Fridays</label>
         </div>
         <div>
-          <input type="checkbox" id="saturdayCheck" name="Saturdays" value="Saturdays">
+          <input type="checkbox" id="saturdayCheck" name="available_field[]" value="Saturdays">
           <label for="saturdayCheck">Saturdays</label>
         </div>
         <h4>Comments:</h4>
         <textarea name="commentsField"></textarea>
       </fieldset>
-      <input type="hidden" name="hiddenField" value="nWagner">
+      <input type="hidden" name="hidden_field" value="nWagner">
       <input type="submit">
     </form>
   </body>
